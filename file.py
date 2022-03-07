@@ -1,0 +1,5 @@
+a=str(input("Enter the string"))
+length=len(a)
+print(length)
+file=open("sample.txt","w")
+data=file.write(str(length))
